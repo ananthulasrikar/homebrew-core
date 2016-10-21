@@ -25,7 +25,7 @@ class Kibana < Formula
   end
 
   resource "node" do
-    url "https://nodejs.org/dist/v4.4.4/node-v4.4.4.tar.gz"
+    url "https://nodejs.org/dist/v4.4.7/node-v4.4.7.tar.gz"
     sha256 "53c694c203ee18e7cd393612be08c61ed6ab8b2a165260984a99c014d1741414"
   end
 
