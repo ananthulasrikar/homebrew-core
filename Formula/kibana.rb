@@ -4,13 +4,13 @@ class Kibana < Formula
   desc "Analytics and search dashboard for Elasticsearch"
   homepage "https://www.elastic.co/products/kibana"
   url "https://github.com/elastic/kibana.git",
-    :tag => "v4.5.1",
-    :revision => "addb28966a74b61791ceda352cd5b8b1200f2b2a"
+    :tag => "v4.6.1",
+    :revision => "3ff0f9b07dbcf2f7552d204777ee426885886609"
 
   head "https://github.com/elastic/kibana.git"
 
   bottle do
-    sha256 "3ad7c608d760e0f232b7314576fc604ab5d01359a9ecc3865626e35ba762673f" => :sierra
+    sha256 "58dc3f82cdd62708034169db64c342a48674065673e2115d410509f83fe59c9e" => :sierra
     sha256 "2a4de8b9c0223d3e7ef17e776ab79401e8c0e5ba78ba238f6d8159d8d16fb9be" => :el_capitan
     sha256 "ec01418d4941f836cd7afcdfb79919ba1d8eae6ddf32ec5df4b7d49d6e5781c2" => :yosemite
     sha256 "58dd7c70a51d0410ef7b3622e4022f2cc15a2060bc6a393bc29e1d79505084fb" => :mavericks
@@ -18,9 +18,9 @@ class Kibana < Formula
 
   devel do
     url "https://github.com/elastic/kibana.git",
-      :tag => "v5.0.0-alpha3",
-      :revision => "b6190c95064a7c48c390c4566e82b5a562ca744f"
-    version "5.0.0-alpha3"
+      :tag => "v5.0.0-rc1",
+      :revision => "3f8cab6a518365ee5e828cc517be4258236dd04a"
+    version "v5.0.0-rc1"
   end
 
   resource "node" do
