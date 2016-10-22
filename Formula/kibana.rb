@@ -6,7 +6,6 @@ class Kibana < Formula
   url "https://github.com/elastic/kibana.git",
     :tag => "v4.6.1",
     :revision => "3ff0f9b07dbcf2f7552d204777ee426885886609"
-  version "4.6.1"  
 
   head "https://github.com/elastic/kibana.git"
 
@@ -25,8 +24,8 @@ class Kibana < Formula
   end
 
   resource "node" do
-    url "https://nodejs.org/dist/v4.4.7/node-v4.4.7.tar.gz"
-    sha256 "cbe1c6e421969dd5639d0fbaa6d3c1f56c0463b87efe75be8594638da4d8fc4f"
+    url "https://nodejs.org/dist/v4.4.4/node-v4.4.4.tar.gz"
+    sha256 "53c694c203ee18e7cd393612be08c61ed6ab8b2a165260984a99c014d1741414"
   end
 
   def install
